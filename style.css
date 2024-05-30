@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: black;
+  font-size: 60px;
+  text-align: auto;
+  padding-top: 50px;
+}
+
+h2 {
+  color: tomato;
+  font-size: 40px;
+  text-align: auto;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 40px;
+  padding-right: 5%;
+  /* margin: 40px 0; */
+}
+
+hr {
+  height: 10px;
+  width: 50px;
+  border-width: 0;
+  border-radius: 4px;
+  background-color: tomato;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: tomato;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 10px 50px;
+  text-decoration: none;
+}
+
+/* li a.active {
+  background-color: white;
+  color: black;
+} */
+
+li a:hover:not(.active) {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+  /* margin: 0 20px; */
+}
+
+div.main {
+  padding-top: 50px;
+  margin-left: 25%;
+}
+
+div.company-title {
+  font-size: larger;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: tomato;
+  position: fixed;
+}
+
+form {
+  display: block;
+  margin-top: 2em;
+}
+
+#room-selection-basic {
+  border-collapse: collapse;
+  width: 45%;
+}
+
+#room-selection-basic th {
+  border: 0px solid #ddd;
+  padding: 20px;
+  background-color: grey;
+  color: white;
+  vertical-align: middle;
+  height: 50px;
+  font-size: larger;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  font-weight: normal;
+  font-size: x-large;
+}
+
+#room-selection-basic tr {
+  border: 1px solid darkgray;
+  padding: 10px;
+  background-color: gainsboro;
+  text-align: center;
+  vertical-align: middle;
+  height: 50px;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+}
+
+#room-selection-basic td {
+  padding: 20px;
+  vertical-align: middle;
+}
+
+#room-selection-basic tr:first-child {
+  border-bottom: 0;
+}
+#room-selection-basic tr:last-child {
+  border-bottom: 0;
+}
+
+#room-selection-pro {
+  border-collapse: collapse;
+  width: 45%;
+  border-spacing: 30px;
+}
+
+#room-selection-pro th {
+  border: 0px solid;
+  padding: 20px;
+  background-color: tomato;
+  color: white;
+  vertical-align: middle;
+  height: 50px;
+  font-size: larger;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  font-weight: normal;
+  font-size: x-large;
+}
+
+#room-selection-pro tr {
+  border: 1px solid darkgray;
+  padding: 40px;
+  background-color: gainsboro;
+  text-align: center;
+  vertical-align: middle;
+  height: 50px;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+}
+
+#room-selection-pro td {
+  padding: 20px;
+  vertical-align: middle;
+}
+
+#room-selection-pro tr:first-child {
+  border-bottom: 0;
+}
+#room-selection-pro tr:last-child {
+  border-bottom: 0;
+}
+
+#designers {
+  border-collapse: collapse;
+  width: 90%;
+  border-spacing: 30px;
+  background-color: lightgray;
+}
+
+#designers th {
+  /* border: 1px solid; */
+  background-color: gainsboro;
+  padding: 10px;
+  font-size: x-large;
+  font-weight: normal;
+  border-spacing: 30px;
+  text-align: left;
+}
+
+#designers td {
+  /* border: 1px solid; */
+  text-align: left;
+  background-color: gainsboro;
+  padding: 10px;
+}
+
+.flex-container-wrap {
+  /* display: flex; */
+  /* flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between; */
+  width: 90%;
+}
+
+.flex-container-no-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-right: 5%;
+  margin-left: -20px;
+}
+
+input[type="text"] {
+  border: 1px solid grey;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  margin-bottom: 10px;
+  border: 1px solid grey;
+}
+
+textarea {
+  margin-bottom: 10px;
+  border: 1px solid grey;
+}
+
+.button-signup {
+  background-color: tomato;
+  color: white;
+  border: 0px solid;
+  padding: 15px 32px;
+  /* margin: 10px 0px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+}
+
+.button-signup:hover {
+  background-color: lightsalmon;
+  color: black;
+  transition: 0.2s;
+}
+
+.button-signup:active {
+  background-color: white;
+  border: black;
+}
+
+.button-sendmessage {
+  background-color: tomato;
+  color: white;
+  border: 1px solid tomato;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+}
+
+.button-sendmessage:hover {
+  background-color: lightsalmon;
+  border: 1px solid lightsalmon;
+  color: black;
+  transition: 0.2s;
+}
+
+.button-sendmessage:active {
+  background-color: white;
+  border: black;
+  border: 1px solid silver;
+}
+
+.button-decrease {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 40px;
+  padding-right: 20px;
+}
+
+.button-decrease:hover {
+  color: tomato;
+  transition: 0.1s;
+}
+
+.button-decrease:active {
+  color: lightsalmon;
+  transform: translateY(4px);
+}
+
+.button-increase {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.button-increase:hover {
+  color: tomato;
+  transition: 0.1s;
+}
+
+.button-increase:active {
+  color: lightsalmon;
+  transform: translateY(4px);
+}
+
+/* #result_tr {
+  display: none;
+} */
